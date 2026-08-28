@@ -12,6 +12,14 @@ body {
     background-color: #5d8394;
 }
 
+h1 {
+    color: #f9f8ef;
+    font-size: 48px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
 /* Background and layout configuration for the navbar container */
 .navbar {
     display: flex;
