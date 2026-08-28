@@ -81,28 +81,17 @@ body {
   gap: 1.5rem;
   padding: 2rem;
   max-width: 400px;
-  background-color: #ffffff;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  font-family: system-ui, sans-serif;
-}
-
-/* Responsive Shift for Larger Screens */
-@media (min-width: 600px) {
-  .bio-card {
-    flex-direction: row;
-    align-items: flex-start;
-    max-width: 600px;
-  }
+  font-family: 'Trebuchet MS', sans-serif; 
 }
 
 /* Profile Picture */
 .bio-img {
   width: 200px;
   height: 200px;
-  border-radius: 50%;
+  /*border-radius: 50%;
   object-fit: cover;
-  border: 3px solid #0066cc;
+  border: 3px solid #0066cc; */
 }
 
 /* Text Content Area */
