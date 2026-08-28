@@ -107,3 +107,7 @@ body {
   color: #f9f8ef;
   line-height: 1.6;
 }
+
+.bios {
+  display:flex;
+}
