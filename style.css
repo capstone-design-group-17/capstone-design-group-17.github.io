@@ -76,7 +76,7 @@ body {
 
 .bio-card {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   gap: 1.5rem;
   padding: 2rem;
@@ -93,7 +93,7 @@ body {
 
 /* Text Content Area */
 .bio-info {
-  flex: 2;
+  flex: 1;
 }
 
 .bio-info h2 {
