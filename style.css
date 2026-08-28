@@ -54,17 +54,3 @@ body {
 .nav-links a.active {
     color: #3498db;
 }
-
-/* Basic mobile responsive adjustment */
-@media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        gap: 15px;
-        text-align: center;
-    }
-    
-    .nav-links {
-        flex-direction: column;
-        gap: 10px;
-    }
-}
