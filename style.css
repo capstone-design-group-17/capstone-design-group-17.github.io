@@ -34,7 +34,8 @@ h1 {
 
 /* Logo styling */
 .logo a {
-    color: #e9d6bd;
+    /*color: #e9d6bd;*/
+    color: #f9f8ef;
     font-size: 24px;
     font-weight: bold;
     text-decoration: none;
