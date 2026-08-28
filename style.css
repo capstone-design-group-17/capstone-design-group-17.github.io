@@ -63,3 +63,11 @@ body {
 .nav-links a.active {
     color: #fb4f14;
 }
+
+.center-block {
+  display: block;      /* Converts inline image to a block element */
+  margin-left: auto;   /* Automatically pushes left margin */
+  margin-right: auto;  /* Automatically pushes right margin */
+  max-width: 100%;     /* Optional: Keeps it responsive on mobile */
+  height: auto;
+}
