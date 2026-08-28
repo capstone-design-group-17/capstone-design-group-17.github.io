@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: #6d95b5;
+    background-color: #a3c0bd;
 }
 
 /* Background and layout configuration for the navbar container */
@@ -17,7 +17,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #456a87;
+    background-color: #104a65;
     padding: 15px 30px;
     position: sticky;
     top: 0;
@@ -26,7 +26,7 @@ body {
 
 /* Logo styling */
 .logo a {
-    color: #ffffff;
+    color: #e9d6bd;
     font-size: 24px;
     font-weight: bold;
     text-decoration: none;
@@ -41,7 +41,7 @@ body {
 
 /* Anchor tags formatting inside the list */
 .nav-links a {
-    color: #ffffff;
+    color: #f9f8ef;
     text-decoration: none;
     font-size: 16px;
     font-weight: 500;
@@ -51,5 +51,5 @@ body {
 /* Smooth visual cue on hover and active status */
 .nav-links a:hover, 
 .nav-links a.active {
-    color: #d94c29;
+    color: #fb4f14;
 }
