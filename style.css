@@ -109,7 +109,7 @@ body {
 }
 
 .bios {
-  display:flex;
+  /*display:flex;*/
   justify-content: center; /* Centers horizontally */
   align-items: center;
 }
