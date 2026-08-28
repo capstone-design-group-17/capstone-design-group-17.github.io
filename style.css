@@ -73,3 +73,60 @@ body {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+.bio-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 2rem;
+  max-width: 400px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: system-ui, sans-serif;
+}
+
+/* Responsive Shift for Larger Screens */
+@media (min-width: 600px) {
+  .bio-card {
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 600px;
+  }
+}
+
+/* Profile Picture */
+.bio-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #0066cc;
+}
+
+/* Text Content Area */
+.bio-info {
+  flex: 1;
+}
+
+.bio-info h2 {
+  margin: 0 0 0.25rem 0;
+  color: #1a1a1a;
+  font-size: 1.5rem;
+}
+
+.bio-info .title {
+  margin: 0 0 1rem 0;
+  color: #666666;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.bio-info p {
+  margin: 0 0 1.5rem 0;
+  color: #4a4a4a;
+  line-height: 1.6;
+}
