@@ -6,12 +6,17 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body {
+
+    background-color: #6d95b5;
+}
+
 /* Background and layout configuration for the navbar container */
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #a7cfc0;
+    background-color: #456a87;
     padding: 15px 30px;
     position: sticky;
     top: 0;
