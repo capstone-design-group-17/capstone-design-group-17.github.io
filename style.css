@@ -89,25 +89,22 @@ body {
 .bio-img {
   width: 200px;
   height: 200px;
-  /*border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid #0066cc; */
 }
 
 /* Text Content Area */
 .bio-info {
-  flex: 1;
+  flex: 2;
 }
 
 .bio-info h2 {
   margin: 0 0 0.25rem 0;
-  color: #1a1a1a;
+  color: #f9f8ef;
   font-size: 1.5rem;
 }
 
 .bio-info .title {
   margin: 0 0 1rem 0;
-  color: #666666;
+  color: #f9f8ef;
   font-size: 0.95rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -116,6 +113,6 @@ body {
 
 .bio-info p {
   margin: 0 0 1.5rem 0;
-  color: #4a4a4a;
+  color: #f9f8ef;
   line-height: 1.6;
 }
