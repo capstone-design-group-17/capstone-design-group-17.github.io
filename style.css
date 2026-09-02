@@ -131,16 +131,16 @@ body {
       display: flex;      
       gap: 20px;             
       align-items: flex-start; 
-      margin:60px;
+      gap:60px;
     }
     .pdf-viewer {
       width: 60%;          
       height: 1000px;     
-      margin:60px;
+      gap:60px;
     }
     .side-text {
       width: 40%;     
-      margin:60px;
+      gap:60px;
     }
 
 @media screen and (max-width: 768px) {
