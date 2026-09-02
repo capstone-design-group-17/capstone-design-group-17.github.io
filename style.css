@@ -20,6 +20,21 @@ body {
     text-align: center;
 }
 
+.sub-title {  /*Class for h2*/
+    color: #f9f8ef;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+.info-paragraph {  /*Class for p*/
+    color: #f9f8ef;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+}
+
 /* Background and layout configuration for the navbar container */
 .navbar {
     display: flex;
