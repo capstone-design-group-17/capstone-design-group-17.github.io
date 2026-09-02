@@ -129,6 +129,19 @@ body {
   align-items: center;
 }
 
+.container {
+      display: flex;      
+      gap: 20px;             
+      align-items: flex-start; 
+    }
+    .pdf-viewer {
+      width: 60%;          
+      height: 600px;         
+    }
+    .side-text {
+      width: 40%;          
+    }
+
 @media screen and (max-width: 768px) {
 
 .bios{
