@@ -129,18 +129,17 @@ body {
 
 .container {
       display: flex;      
-      gap: 20px;             
       align-items: flex-start; 
       gap:60px;
     }
     .pdf-viewer {
       width: 60%;          
       height: 1000px;     
-      gap:60px;
+      margin: auto;
     }
     .side-text {
       width: 40%;     
-      gap:60px;
+      margin: auto;
     }
 
 @media screen and (max-width: 768px) {
