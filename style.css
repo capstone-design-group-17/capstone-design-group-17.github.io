@@ -25,14 +25,12 @@ body {
     font-size: 24px;
     font-weight: bold;
     text-decoration: none;
-    text-align: center;
 }
 
 .info-paragraph {  /*Class for p*/
     color: #f9f8ef;
     font-size: 18px;
     text-decoration: none;
-    text-align: center;
 }
 
 /* Background and layout configuration for the navbar container */
@@ -136,7 +134,7 @@ body {
     }
     .pdf-viewer {
       width: 60%;          
-      height: 600px;         
+      height: 1000px;         
     }
     .side-text {
       width: 40%;          
