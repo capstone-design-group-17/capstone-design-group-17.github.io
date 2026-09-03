@@ -131,7 +131,7 @@ body {
 .container {
       display: flex;      
       align-items: flex-start; 
-      gap:60px;
+      gap:40px;
     }
     .pdf-viewer {
       width: 60%;          
@@ -145,6 +145,10 @@ body {
 @media screen and (max-width: 768px) {
 
 .bios{
+display:block;
+}
+
+.container {
 display:block;
 }
     
