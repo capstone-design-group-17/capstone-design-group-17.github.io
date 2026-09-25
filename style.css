@@ -93,8 +93,10 @@ body {
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: center;      /* Centers the text inside the div */
-  max-width: 400px;        /* Prevents it from getting too wide */
+  max-width: 1000px;        /* Prevents it from getting too wide */
   width: 100%;             /* Makes it responsive on mobile */
+      margin-left: auto;   /* Automatically pushes left margin */
+  margin-right: auto;  /* Automatically pushes right margin */
         }
 
 .bio-card {
