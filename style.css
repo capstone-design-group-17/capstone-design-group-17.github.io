@@ -98,6 +98,13 @@ body {
       margin-left: auto;   /* Automatically pushes left margin */
   margin-right: auto;  /* Automatically pushes right margin */
         }
+.centered-div-gannt {
+  padding: 30px;
+  max-width: 1000px;        /* Prevents it from getting too wide */
+  width: 100%;             /* Makes it responsive on mobile */
+      margin-left: auto;   /* Automatically pushes left margin */
+  margin-right: auto;  /* Automatically pushes right margin */
+        }
 
 .bio-card {
   display: flex;
