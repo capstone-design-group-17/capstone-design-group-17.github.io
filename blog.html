@@ -22,6 +22,29 @@
     </nav>
 
         <div class="centered-div">
+    <h2 class="sub-title">Week of October 19 - 23</h2>
+        <p class="info-paragraph">
+• Researched the Beelink MINI S12 as the main computer. It runs on a 12 V DC input, uses a low-power processor, 
+    and has one RAM slot that can be upgraded to 16 GB.
+    </p>
+        <p class="info-paragraph">
+• Chose Ubuntu 24.04 with ROS 2 Jazzy and Nav2 for the main computer instead of the Windows 11 it ships with,
+since the navigation and lidar packages are built for Linux.
+    </p>
+   <p class="info-paragraph">
+• Researched the Teensy 4.1 for low-level motor control.
+    </p>
+   <p class="info-paragraph">
+• Defined the control split: The Teensy handles motor PWM, encoder reading, and the e-stop at a fixed rate. The mini
+PC handles mapping, path planning, and the user interface, and sends velocity commands over USB serial.
+    </p>
+            <p class="info-paragraph">
+•  Drafted a power plan: the 12 V battery feeds a 12 V buck-boost regulator for the mini PC, the motor drivers are
+powered from the battery through a fuse, and the Teensy is powered over USB.
+    </p>
+    </div>
+
+        <div class="centered-div">
     <h2 class="sub-title">Week of October 12 - 16</h2>
         <p class="info-paragraph">
 • Combined the screen from one awabot with the motors and circuitry from the one with the new battery
