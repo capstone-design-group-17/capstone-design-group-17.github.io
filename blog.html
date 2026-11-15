@@ -40,19 +40,22 @@
         <div class="centered-div">
     <h2 class="sub-title">Week of November 2 - 6</h2>
         <p class="info-paragraph">
-• Ordered the Beelink MINI S12 (16 GB configuration) and the Teensy 4.1. These will serve as our main computer and low-level motor control, respectively. 
+• Opened the Beam’s base and identified the motor control board. The drive motors are brushless hub motors with built-in Hall sensors which can serve as wheel encoders.
     </p>
         <p class="info-paragraph">
-• Generated the initial occupancy grid that will be the starting point for navigation once the Tourbot is up and running. This occupancy grid holds the measurements we took of the third floor of Broun in a 2D matrix form, where each cell represents a quarter inch of space.
+•  Found that the Beam’s head computer controls this board over a single USB cable. Connected a laptop in its place
+and confirmed the board shows up as a USB serial device.
     </p>
                <p class="info-paragraph">
-• Established an initial map representation that can be used as the foundation for future navigation and pathfinding algorithms. 
+• Found beam-revival, an MIT-licensed open-source project that has documented this board’s communication
+protocol, including drive commands, encoder and gyro readings, battery status and a power watchdog. The protocol
+has been tested on the Beam+, and the project lists the BeamPro board as using the same protocol.
    </p>
    <p class="info-paragraph">
-• Generated a visual rendering of the occupancy grid to verify that the measurements were translated correctly. It is shown below:
-    </p>
+•  Wrote a read-only test script to request status from the board, and verified that its commands match the beam-revival
+reference implementation byte for byte.
 
-          <img src="TrueOccupancy.jpg" alt="Occupancy Grid" class="center-block" width="600">
+    </p>
 
     </div>
     
